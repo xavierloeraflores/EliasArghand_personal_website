@@ -5,8 +5,6 @@
     border-width:0px;
 }
 
-
-
 main {
     display:flex;
     flex-flow: column;
@@ -18,30 +16,47 @@ p {
 }
 
 
+
+
+
+
+/* Heading */
+
 #heading {
 
     display: flex;
     flex-flow:row nowrap;
     justify-content: center;
     margin-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 #heading img {
     width: 360px;
     border-radius: 50%;
-    margin-left: 16px;
+    margin-left: 8px;
 }
-#heading a {
+
+
+
+/* Bio */
+#bio #link {
     background-color: blue;
     color:white;
     padding:16px;
     font-size: 24px;
     text-decoration: none;
 }
+
 #bio {
     display: flex;
     flex-flow:column;
     justify-content: center;
     align-items: flex-start;
+}
+
+#bio > * {
+    margin-bottom:4px;
 }
 #bio p{
     color: #575656;
@@ -60,8 +75,13 @@ p {
 
 
 
-
 #portfolio {
+    display: flex;
+    flex-flow:column nowrap;
+    padding: 16px 32px 16px 32px;
+}
+
+#cards {
     display: flex;
     flex-flow:row wrap;
     justify-content: space-around;
@@ -73,17 +93,31 @@ p {
     margin:16px;
     border: 1px #575656 solid;
     border-radius: 3%;
-    background-color: #575656;
+    background-color: #525253;
     color:white;
     padding: 16px;
+    letter-spacing: 1.5px;
 }
 .card img {
     border-radius: 3%;
     width: 100%;
     margin:8px 0px 8px 0px;
 }
+.card .project_name {
+    color: rgb(255, 255, 255);
+}
 
 
+footer {
+    background-color: #1D1D1E;
+    display: flex;
+    justify-content: center;
+}
+footer i {
+    font-size: 65px;
+    color:white;
+    margin:16px;
+}
 
 
 
