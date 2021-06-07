@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    border-width:0px;
+}
+
+
+
+main {
+    display:flex;
+    flex-flow: column;
+    background-color: #FEFEFF;
+    padding-top:16px ;
+}
+p {
+    font-size: 18px;
+}
+
+
+#heading {
+
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+#heading img {
+    width: 360px;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+#heading a {
+    background-color: blue;
+    color:white;
+    padding:16px;
+    font-size: 24px;
+    text-decoration: none;
+}
+#bio {
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#bio p{
+    color: #575656;
+    width: 50%;
+}
+
+
+
+
+#about {
+    background-color:#F1EDEC ;
+    padding: 16px 32px 16px 32px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+#portfolio {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+
+}
+
+.card {
+    width: 325px;
+    margin:16px;
+    border: 1px #575656 solid;
+    border-radius: 3%;
+    background-color: #575656;
+    color:white;
+    padding: 16px;
+}
+.card img {
+    border-radius: 3%;
+    width: 100%;
+    margin:8px 0px 8px 0px;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    #heading {
+        flex-flow:column nowrap;
+        align-items: center;
+    }
+    #bio
+    {
+        align-items: center;
+        margin-bottom: 16px;
+    }
+}
