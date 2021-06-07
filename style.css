@@ -67,9 +67,11 @@ p {
 
 
 #about {
-    background-color:#F1EDEC ;
+    background-color:#24292E ;
+    color:white;
     padding: 16px 32px 16px 32px;
     margin-bottom: 16px;
+    letter-spacing: 1.5px;
 }
 
 
@@ -91,10 +93,10 @@ p {
 .card {
     width: 325px;
     margin:16px;
-    border: 1px #575656 solid;
+    /* border: 1px #575656 solid; */
     border-radius: 3%;
-    background-color: #525253;
-    color:white;
+    background-color: #24292E;
+    color:#eeefef;
     padding: 16px;
     letter-spacing: 1.5px;
 }
