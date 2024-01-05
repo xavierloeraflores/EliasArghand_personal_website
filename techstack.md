@@ -1,26 +1,30 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 xavierloeraflores/EliasArghand_personal_website is built on the following main stack:
 
 
-Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+Full tech stack [here](/techstack.md)
+
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 xavierloeraflores/EliasArghand_personal_website is built on the following main stack:
 
 
+
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [xavierloeraflores/EliasArghand_personal_website](https://github.com/xavierloeraflores/EliasArghand_personal_website)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|3<br/>Tools used|11/16/23 <br/>Report generated|
+|3<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
